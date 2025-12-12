@@ -1,0 +1,4 @@
+#!/bin/bash
+# Copy .html files to parent directory only if destination is missing or older
+shopt -s nullglob
+cp -u -- *.html ..
